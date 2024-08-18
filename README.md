@@ -18,7 +18,7 @@ _More examples on the 'example_videos' folder_
 
 ## Usage of normal inference
 
-_You can use directly the [Colab Notebook here](https://colab.research.google.com/drive/1O3F8X7JPkqKmz9CruN0Dr3QaXlS5LNLl?usp=sharing)    (RECOMENDED)_
+_You can use directly the [Colab Notebook here](https://colab.research.google.com/drive/10ZJHJlVImXJzhPK68VJxC9v-gnMkr-0c?usp=sharing)    (RECOMENDED)_
 
 Or you can run it on the python script in a virtual environment:
 
@@ -34,7 +34,7 @@ Or you can run it on the python script in a virtual environment:
 
 1. Clone the repository
    ```bash
-   git clone https://github.com/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming.git
+   git clone https://github.com/yarkhan706/MoViNets-for-Violence-Detection-in-Live-Video-Streaming.git
    cd MoViNets-for-Violence-Detection-in-Live-Video-Streaming
 2. Install the required packages
    ```bash
@@ -68,14 +68,14 @@ _Tested on an Orange pi 5_
 
 1. Downloading the repo
    ```bash
-   git clone https://github.com/engares/MoViNets-for-Violence-Detection-in-Live-Video-Streaming.git
+   git clone https://github.com/yarkhan706/MoViNets-for-Violence-Detection-in-Live-Video-Streaming.git
    cd MoViNets-for-Violence-Detection-in-Live-Video-Streaming
 2. Install the required packages
    ```bash
    sudo apt-get install pkg-config libhdf5-dev
    pip install -r ./MoViNets-for-Violence-Detection-in-Live-Video-Streaming/requeriments_tflite.txt
    
-4. Open the _'movinet_tf_lite_inference.ipynb'_ and select the file. Also available [here on colab](https://colab.research.google.com/drive/1APNP5y0GhIY6AEL2wJyozlL1y4UyN_aC?usp=sharing), if you want to connect it to your local Runtime
+4. Open the _'movinet_tf_lite_inference.ipynb'_ and select the file. Also available [here on colab](https://colab.research.google.com/drive/10ZJHJlVImXJzhPK68VJxC9v-gnMkr-0c?usp=sharing), if you want to connect it to your local Runtime
    
 Note. _The default tflite model used is the one avilable in this repo, corresponfing to the best model trained. If you want to export your own tf-lite model, check the last section of this [Colab Notebook](https://colab.research.google.com/drive/1O3F8X7JPkqKmz9CruN0Dr3QaXlS5LNLl?usp=sharing)_
 
